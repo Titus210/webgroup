@@ -4,6 +4,7 @@ var number_two = Number(window.prompt("Enter second number"));
 var number_three = Number(window.prompt("Enter third number"));
 
 
+
 // function to find max
 function findMax(x, y, z) {
     if (x > y && x > z) {
@@ -14,6 +15,13 @@ function findMax(x, y, z) {
     else
         return z;
 }
+
+
+function find_man_recursion(x,y,z){
+
+}
+
+
 
 var max = String(findMax(number_one, number_two, number_three))
 
