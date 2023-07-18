@@ -10,6 +10,7 @@ do {
     var day_of_week = Number(window.prompt("Enter day of the week (1-7): "));
 } while (day_of_week < 0 || day_of_week > 8)
 
+
 /* using switch statement */
 
 switch (day_of_week) {
